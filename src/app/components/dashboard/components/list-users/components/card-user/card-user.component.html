@@ -1,0 +1,10 @@
+<div class="card" style="width: 18rem">
+  <img [src]="imgUrl" alt="image" class="card-img-top" />
+  <div class="card-body">
+    <h5 class="card-title text-center">{{ name }}</h5>
+    <p class="card-text text-center">{{ email }}</p>
+    <button class="btn btn-primary btn-block btn-xl" routerLink="user/{{ id }}">
+      SEE
+    </button>
+  </div>
+</div>

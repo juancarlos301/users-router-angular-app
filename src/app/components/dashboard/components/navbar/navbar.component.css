@@ -1,0 +1,11 @@
+.navbar {
+  background-color: #f05f44;
+  height: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.8rem;
+}

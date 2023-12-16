@@ -1,0 +1,10 @@
+<div class="row d-flex justify-content-center mt-3" *ngIf="loading">
+  <div class="spinner-grow text-primary spinner-color" role="status"></div>
+  <div class="spinner-grow text-primary spinner-color" role="status"></div>
+  <div class="spinner-grow text-primary spinner-color" role="status"></div>
+</div>
+<div class="row">
+  <div class="col-lg-3" style="margin: 30px" *ngFor="let user of listUsers">
+    <app-card-user [user]="user"></app-card-user>
+  </div>
+</div>

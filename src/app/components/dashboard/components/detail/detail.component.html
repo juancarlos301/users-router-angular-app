@@ -1,0 +1,24 @@
+<div class="row">
+  <div class="col-lg-8 offset-2">
+    <div class="card">
+      <img
+        [src]="imageUrl"
+        class="card-img-top img-thumbnail"
+        alt="image"
+        style="width: 25rem; margin: 0 auto"
+      />
+      <div class="card-body text-center">
+        <h5 class="card-title">
+          {{ name }}
+        </h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">{{ email }}</li>
+          <li class="list-group-item">{{ gender }}</li>
+        </ul>
+      </div>
+      <button class="btn btn-primary btn-block btn-xl" routerLink="/">
+        come back
+      </button>
+    </div>
+  </div>
+</div>
